@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESPRESSO</title>
+    <link rel="stylesheet" href="espresso.css">
+    <link rel="icon" href="icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="image"></div>
+
+    <div id="head">
+        <h1>Эспрессо</h1>
+    </div>
+
+    <div id="countDown">
+        <p id="par">2 : 00</p>
+
+        <button id="btn">
+        </button>
+    </div>
+
+
+    <div id="main">
+        <ul>
+            <li>Соотношение молотых зерен к воде должно быть следующим: 7-9 грамм кофе и 25-35 мл воды.</li>
+            <li>До того, как приготовить эспрессо в кофеварке обязательно спрессовать кофейный порошок.</li>
+            <li>Насыпьте в холдер до уровня ограничительной отметки и выровняйте. Затем с помощью несильного давления темпером сформировать плотную и ровную «таблетку». </li>
+            <li>Включите пролив воды.  Если процесс приготовления кофе в кофемашине организован по всем правилам, то экстракция занимает не больше 30 секунд.</li>
+            <li>Эспрессо нужно подать в течение <span>1–1,5</span> минуты после приготовления. Для этого используются  маленькие кофейные чашки или толстостенные демитассе.</li>
+            <li>Обязательное дополнение – стакан воды комнатной температуры без газа, чтобы человек мог сделать глоток для очистки рецептов.</li>
+            <li>Эспрессо надо выпивать в два-три глотка. Можно сочетать его с шоколадом, фруктами, сыром.</li>
+        </ul>
+    </div>
+ 
+    <audio id="myAudio" autoplay="autoplay" loop="loop" controls >
+        <source src="The_Flying_Stars_Of_Brooklyn_NY_Aaron_Frazer_-_My_God_Has_A_Telephone.mp3">
+    </audio>
+
+    <div id="button_back">
+        <a href="/index.html"><img src="back.png" width="30px" alt="Back"></a>
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/timelinejs/3.6.6/js/timeline-min.js"></script>
+    <script src="espresso.js"></script>
+</body>
+</html>
