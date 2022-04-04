@@ -30,7 +30,6 @@ h1 {
     height: 80px;
     width: 460px;
     padding: 20px;
-    transition: 0.8s;
 }
 
 h1:hover {
