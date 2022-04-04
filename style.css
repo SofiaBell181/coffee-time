@@ -1,0 +1,180 @@
+body, html {
+    margin: 0;
+    height: 120%;
+    background-color: #a8aeac;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#head {
+    background-image: url('cofee.jpg');
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    opacity: 0;
+    margin: 0;
+    margin-top: 40px;
+    font-size: 55px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #a27f3586;
+    border-radius: 2px;
+    height: 80px;
+    width: 460px;
+    padding: 20px;
+    transition: 0.8s;
+}
+
+h1:hover {
+    background-color: #92733086 ;
+}
+
+#center {
+    height: 10%;
+    background-image: url(hr-cofee.png);
+}
+
+#cofee_break_par {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    position: relative;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #a27f35;
+    margin: 0;
+    padding: 0 0 3px 0;
+}
+
+.par {
+    color: #af7f35;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    text-align: center;
+}
+
+
+#cofee {
+    background-image: url('cofee.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cofee a {
+    opacity: 0;
+    letter-spacing: 1px;
+    border: 1px solid #fff;
+    text-align: center;
+    text-decoration: none;
+    margin: 60px;
+    color: #fff;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    padding: 10px 15px;
+    background-color: #a27f3586 ;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+#cofee a:hover{
+    color: #fff;
+    background-color: #af7e35af;
+    transform: scale(1.1); 
+    transition: 1s all; 
+}
+
+#contact {
+    height: 6.5%;
+    background-image: url(hr-cofee.png);
+}
+
+#contact img {
+    padding-top: 10px;
+}
+
+#end {
+    background-image: url('cofee.jpg');
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35%;
+}
+
+@media all and (max-width: 1000px) {
+    #cofee a {
+        margin: 20px;
+    }
+
+    #contact img {
+        padding-top: 20px;
+    }
+} 
+
+@media all and (max-width: 800px) {
+    #cofee a {
+        margin: 20px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 40px;
+        height: 60px;
+    }
+
+    .par {
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-weight: 100;
+        text-align: center;
+    }
+
+    #cofee {
+        display: flex;
+        flex-direction: column;
+        height: 28%;
+
+    }
+
+    #cofee a {
+        margin: 8px;
+        padding: 5px 10px;
+        font-size: 20px;
+    }
+
+    #contact img {
+        padding-top: 10px;
+    }
+    }
+
+    @media all and (max-width: 350px) {
+    #contact img {
+        padding-top: 6px;
+        width: 23px;
+        }
+    }
+
+
