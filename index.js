@@ -1,7 +1,9 @@
 const tl = new TimelineMax();
 
-tl.to('h1', 1, {
+tl.to('h1', 1.5, {
+    delay:1,
     opacity: 1,
+    y: 100,
 })
 
 tl.to('a', 1.5, {
