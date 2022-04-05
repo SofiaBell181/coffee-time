@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     audio.pause()
 })
 
-const time = 3;
+const time = 2;
 let amountTime = time * 60;
 let numberOfClick = 0;
 let timeID
