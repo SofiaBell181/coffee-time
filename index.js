@@ -6,7 +6,7 @@ tl.from('h1', 1.5, {
     y: -100,
 })
 
-tl.to('a', 1.5, {
+tl.to('a', .8, {
     opacity: 1,
     stagger:1,
 })
